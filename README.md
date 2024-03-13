@@ -16,7 +16,7 @@ The DotNet CodeTest project is a web-based application designed to facilitate th
 ## Technologies Used
 
 - **ASP.NET Core MVC**
-- **Entity Framework Core**
+- **Entity Framework**
 - **C#**
 - **HTML/CSS**
 - **Bootstrap**
