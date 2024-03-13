@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "Edit";
+}
+
+@model mvc.Models.Entities.Student
+<h1>Edit Student</h1>
+@if(Model is null)
+    {
+        <p>No Student was founnd with this Id</p>
+        }
+else{
+<form method="post">
+    <div class="mt-3">
+        <label>Id</label>
+        <input type="text" class="form-control" asp-for="Id" readonly/>
+    </div>
+    <div class="mt-3">
+        <label>Name</label>
+        <input type="text" class="form-control" asp-for="Name" />
+    </div>
+    <div class="mt-3">
+        <label>Email</label>
+        <input type="email" class="form-control" asp-for="Email" />
+    </div>
+    <div class="mt-3">
+        <input type="checkbox" class="form-check-input" id="Subscribed" />
+        <label class="form-check-label" for="Subscribed">Subscribed</label>
+    </div>
+    <div class="mt-3">
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</form>
+    }
