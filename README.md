@@ -43,7 +43,7 @@ dotnet ef database update
 dotnet run
 
 
-6. Access the application in your web browser at `http://localhost:5000`.
+6. Open the application in your web browser 
 
 ## Usage
 
