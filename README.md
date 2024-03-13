@@ -1,6 +1,3 @@
-Certainly! Here's the README.md content formatted using Markdown for your GitHub repository:
-
-```markdown
 # DotNet CodeTest
 
 This repository contains a simple web application for managing student records built with ASP.NET Core MVC.
@@ -28,34 +25,23 @@ The DotNet CodeTest project is a web-based application designed to facilitate th
 ## Installation
 
 1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/PeterIsaacc/DotNet-CodeTest.git
-   ```
+git clone https://github.com/PeterIsaacc/DotNet-CodeTest.git
 
 2. Navigate to the project directory:
+cd DotNet-CodeTest
 
-   ```bash
-   cd DotNet-CodeTest
-   ```
 
 3. Restore dependencies using .NET CLI:
+dotnet restore
 
-   ```bash
-   dotnet restore
-   ```
 
 4. Update the database with Entity Framework Core migrations:
+dotnet ef database update
 
-   ```bash
-   dotnet ef database update
-   ```
 
 5. Run the application:
+dotnet run
 
-   ```bash
-   dotnet run
-   ```
 
 6. Access the application in your web browser at `http://localhost:5000`.
 
@@ -73,4 +59,3 @@ Contributions are welcome! Please feel free to submit bug reports, feature reque
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
