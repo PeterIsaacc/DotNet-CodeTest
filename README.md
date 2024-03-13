@@ -25,22 +25,22 @@ The DotNet CodeTest project is a web-based application designed to facilitate th
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/PeterIsaacc/DotNet-CodeTest.git
+`git clone https://github.com/PeterIsaacc/DotNet-CodeTest.git`
 
 2. Navigate to the project directory:
-cd DotNet-CodeTest
+`cd DotNet-CodeTest`
 
 
 3. Restore dependencies using .NET CLI:
-dotnet restore
+`dotnet restore`
 
 
 4. Update the database with Entity Framework Core migrations:
-dotnet ef database update
+`dotnet ef database update`
 
 
 5. Run the application:
-dotnet run
+`dotnet run`
 
 
 6. Open the application in your web browser 
