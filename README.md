@@ -52,7 +52,4 @@ The DotNet CodeTest project is a web-based application designed to facilitate th
 3. Click on the "Edit" button next to a student to modify their details.
 4. To delete a student, click on the "Delete" button next to their record and confirm the action.
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit bug reports, feature requests, or pull requests.
 
