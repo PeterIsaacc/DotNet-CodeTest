@@ -56,6 +56,3 @@ The DotNet CodeTest project is a web-based application designed to facilitate th
 
 Contributions are welcome! Please feel free to submit bug reports, feature requests, or pull requests.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
